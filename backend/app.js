@@ -20,7 +20,7 @@ app.use(fileUpload());
 // Route Imports
 const product = require("./routes/productRoute");
 const user = require("./routes/userRoute");
-const order = require("./routes/orderRoute");
+const order = require("./routes/OrderRoute");
 const payment = require("./routes/paymentRoute");
 
 app.use("/api/v1", product);
