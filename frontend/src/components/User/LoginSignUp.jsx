@@ -155,7 +155,7 @@ const LoginSignUp = () => {
                         />
                     </div>
                     <div className="registerImage">
-                        <img src={avatarPreview} alt="Avatar Preview" />
+                        <img src={avatarPreview} alt="Avatar Preview" className='img-avatar'/>
                         <input type="file" name="avatar" accept="image/*" onChange={registerDataChange}
                         />
                     </div>
